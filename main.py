@@ -4,8 +4,12 @@
 def main():
 
    #print("Hey You!")
-windows_size_x= 800
-windows_size_z= 600
+windows_size_x=800
+
+windows_size_z=600
+
+quitter=1
+
 
 if __name__ == '__main__':
     main()
