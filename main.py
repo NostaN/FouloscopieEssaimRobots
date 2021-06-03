@@ -1,9 +1,6 @@
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 import pygame
 pygame.init()
-
-
-#from tkinter import *
+from robot import Robot
 
 def main():
 
@@ -15,6 +12,14 @@ def main():
     while running:
         print("Hello")
         running=False
+
+
+if __name__ == '__main__':
+    main()
+
+
+
+
 """
     #Création fenêtre:
     window = Tk()
@@ -33,7 +38,3 @@ def main():
     #Affichage de la fenêtre:
     window.mainloop()
 """
-
-if __name__ == '__main__':
-    main()
-
